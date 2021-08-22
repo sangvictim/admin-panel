@@ -14,6 +14,7 @@
 - User Management
 - Role Management
 - Permission Management
+- Activity Log
 
 ## How to use
 1. Clone or fork this repo
