@@ -17,7 +17,7 @@ jobs:
         php-version: '8.0'
     - name: Install composer dependencies
       run: |
-        composer install --no-scripts
+        composer install
  
     - name: Prepare Laravel Application
       run: |
@@ -25,4 +25,4 @@ jobs:
         php artisan key:generate
  
     - name: Run Testsuite
-      run: vendor/bin/phpunit tests/
+      run: composer test
