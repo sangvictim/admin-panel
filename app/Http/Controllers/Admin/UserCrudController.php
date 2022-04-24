@@ -39,9 +39,21 @@ class UserCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('name');
-        CRUD::column('email');
-        CRUD::column('password');
+        // CRUD::column('name');
+        // CRUD::column('email');
+        // CRUD::column('password');
+
+        $this->crud->addFilter([
+            'type'  => 'date_range',
+            'name'  => 'from_to',
+            'label' => 'Date range'
+          ],
+          false,
+          function ($value) { // if the filter is active, apply these constraints
+            // $dates = json_decode($value);
+            // $this->crud->addClause('where', 'date', '>=', $dates->from);
+            // $this->crud->addClause('where', 'date', '<=', $dates->to . ' 23:59:59');
+          });
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:

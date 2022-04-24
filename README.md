@@ -1,9 +1,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=PHP&message=8&color=green">
-<img src="https://img.shields.io/static/v1?label=Laravel&message=8&color=green">
-<img src="https://img.shields.io/static/v1?label=Dependency&message=Backpak&color=blue">
+<img src="https://img.shields.io/static/v1?label=PHP&message=8.1&color=green">
+<img src="https://img.shields.io/static/v1?label=Laravel&message=9&color=green">
+<img src="https://img.shields.io/static/v1?label=Dependency&message=Backpak 5.0&color=blue">
 <img src="https://img.shields.io/static/v1?label=Log&message=Spatie-Log&color=blue">
 <img src="https://img.shields.io/static/v1?label=Test&message=Larastan&color=red">
 <img src="https://img.shields.io/static/v1?label=Formater&message=Lint&color=purple">
